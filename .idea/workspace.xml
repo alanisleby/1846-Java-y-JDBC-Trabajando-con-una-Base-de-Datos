@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1970412-6c24-47d1-81c0-b44201c41dd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/factory/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/pruebas/PruebaDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/dao/ProductoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/modelo/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/pruebas/PruebaPooledDeConexiones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/pruebas/PruebaConexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/pruebas/PruebaConexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/factory/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/factory/ConnectionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/view/ControlDeStockFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alura/jdbc/view/ControlDeStockFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,11 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PruebaPooledDeConexiones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alura.jdbc.pruebas.PruebaPooledDeConexiones" />
+      <module name="control-de-stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alura.jdbc.pruebas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ControlDeStockMain" />
-        <item itemvalue="Application.PruebaDelete" />
         <item itemvalue="Application.PruebaConexion" />
+        <item itemvalue="Application.PruebaPooledDeConexiones" />
+        <item itemvalue="Application.PruebaDelete" />
       </list>
     </recent_temporary>
   </component>
